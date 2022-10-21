@@ -10,11 +10,36 @@ import AccountPlusOutline from 'mdi-material-ui/AccountPlusOutline'
 import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
+import TagMultipleOutline from 'mdi-material-ui/TagMultipleOutline'
+import MotorbikeElectric from 'mdi-material-ui/MotorbikeElectric'
+import Tag from 'mdi-material-ui/Tag'
+import MopedOutline from 'mdi-material-ui/MopedOutline'
+
 // ** Type import
 import { VerticalNavItemsType } from 'src/@core/layouts/types'
 
 const navigation = (): VerticalNavItemsType => {
   return [
+    {
+      title: 'Moto Type',
+      icon: MotorbikeElectric,
+      path: '/motoType'
+    },
+    {
+      title: 'Moto Brand',
+      icon: Tag,
+      path: '/brand'
+    },
+    {
+      title: 'Moto Brandfamily',
+      icon: TagMultipleOutline,
+      path: '/brandFamily'
+    },
+    {
+      title: 'Moto Part',
+      icon: MopedOutline,
+      path: '/moto-part'
+    },
     {
       title: 'Dashboard',
       icon: HomeOutline,

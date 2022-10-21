@@ -73,13 +73,20 @@ const VerticalLayout = (props: LayoutProps) => {
           toggleNavVisibility={toggleNavVisibility}
           {...props}
         />
-        <MainContentWrapper className='layout-content-wrapper'>
+        <MainContentWrapper
+          className='layout-content-wrapper'
+          style={{
+            backgroundImage: `linear-gradient(to right,  rgba(0, 1, 26),rgba(209, 68, 68, 0.8))`,
+            opacity: '100%'
+          }}
+        >
           {/* AppBar Component */}
           <AppBar toggleNavVisibility={toggleNavVisibility} {...props} />
 
           {/* Content */}
           <ContentWrapper
-            className='layout-page-content'
+            // className='layout-page-content'somePic
+
             sx={{
               ...(contentWidth === 'boxed' && {
                 mx: 'auto',
@@ -92,7 +99,7 @@ const VerticalLayout = (props: LayoutProps) => {
           </ContentWrapper>
 
           {/* Footer Component */}
-          <Footer {...props} />
+          {/* <Footer {...props} /> */}
 
           {/* Portal for React Datepicker */}
           <DatePickerWrapper sx={{ zIndex: 11 }}>
