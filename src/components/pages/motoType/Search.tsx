@@ -1,7 +1,7 @@
-import { Autocomplete, Card, CardContent, FormControlLabel, Grid, TextField, Typography } from '@mui/material'
+import { Autocomplete, Card, FormControlLabel, Grid, TextField, Typography } from '@mui/material'
 import React from 'react'
 import { styled } from '@mui/material/styles'
-import Switch, { SwitchProps } from '@mui/material/Switch'
+import Switch from '@mui/material/Switch'
 
 //#region Gloabal Variables
 

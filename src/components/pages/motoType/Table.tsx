@@ -1,4 +1,4 @@
-import { Button, Card, Grid, Tab, Typography } from '@mui/material'
+import { Button, Card, Grid } from '@mui/material'
 import React from 'react'
 import TableBasic from 'src/views/tables/TableBasic'
 import Plus from 'mdi-material-ui/Plus'
@@ -6,7 +6,7 @@ import Export from 'mdi-material-ui/FileExcel'
 
 export default function Table(props: any) {
   //#region Props
-  const { headerName = 'Header Name...' } = props
+  const {} = props
   //#endregion
 
   //#region State & Variables

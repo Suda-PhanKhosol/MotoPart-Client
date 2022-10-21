@@ -36,7 +36,7 @@ const navigation = (): VerticalNavItemsType => {
       path: '/brandFamily'
     },
     {
-      title: 'Moto Part',
+      title: 'Moto Parts',
       icon: MopedOutline,
       path: '/moto-part'
     },
